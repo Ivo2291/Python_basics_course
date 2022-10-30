@@ -1,0 +1,4 @@
+centimeters = int(input())
+inches = centimeters * 2.54
+
+print(inches)
