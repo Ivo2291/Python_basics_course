@@ -1,1 +1,1 @@
-# Python_courses
+First course in SoftUni
