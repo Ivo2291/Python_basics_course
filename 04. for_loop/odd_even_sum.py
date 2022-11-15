@@ -10,10 +10,10 @@ for number in range(1, count_of_numbers + 1):
     else:
         odd_sum += current_number
 
-    if odd_sum == even_sum:
-         print("Yes")
-        print(f"Sum = {odd_sum}")
+if odd_sum == even_sum:
+    print("Yes")
+    print(f"Sum = {odd_sum}")
 
-    else:
-        print("No")
-        print(f"Diff = {abs(odd_sum - even_sum)}")
+else:
+    print("No")
+    print(f"Diff = {abs(odd_sum - even_sum)}")
