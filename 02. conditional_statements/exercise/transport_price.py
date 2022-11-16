@@ -1,19 +1,21 @@
 kilometers = int(input())
-trip_time = input()
-transport_price = 0
-starting_fee = 0.70
+part_of_the_day = input()
+
+starting_fee = 0.7
+price_for_transport = 0
 
 if kilometers < 20:
-    if trip_time == "day":
-        transport_price = starting_fee + (kilometers * 0.79)
+    price_for_transport += starting_fee
 
+    if part_of_the_day == "day":
+        price_for_transport += kilometers * 0.79
     else:
-        transport_price = starting_fee + (kilometers * 0.90)
+        price_for_transport += kilometers * 0.9
 
 elif kilometers < 100:
-    transport_price = kilometers * 0.09
+    price_for_transport += kilometers * 0.09
 
 else:
-    transport_price = kilometers * 0.06
+    price_for_transport += kilometers * 0.06
 
-print(f"{transport_price:.2f}")
+print(f"{price_for_transport:.2f}")
