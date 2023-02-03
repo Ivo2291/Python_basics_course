@@ -1,3 +1,5 @@
+# Python_basics_course
+
 COURSE CURRICULUM:
 
 1. First Steps In Coding
